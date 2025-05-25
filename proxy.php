@@ -1,7 +1,7 @@
 <?php
-$bot_token       = getenv('7171638404:AAGsiMFdwvhXZQMRrzY_XCrsEv9zURBSNEU');
-$source_channel  = getenv('@ProxyMTProto');
-$target_channel  = getenv('@proxy_who');
+$bot_token       = getenv('BOT_TOKEN');
+$source_channel  = getenv('SOURCE_CHANNEL');
+$target_channel  = getenv('TARGET_CHANNEL');
 
 if (!$bot_token || !$source_channel || !$target_channel) {
     exit("خطا: مقادیر محیطی BOT_TOKEN یا SOURCE_CHANNEL یا TARGET_CHANNEL تنظیم نشده‌اند.\n");
