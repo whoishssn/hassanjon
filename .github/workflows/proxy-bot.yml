@@ -20,7 +20,7 @@ jobs:
 
       - name: Run proxy script
         env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          SOURCE_CHANNEL: ${{ secrets.SOURCE_CHANNEL }}
-          TARGET_CHANNEL: ${{ secrets.TARGET_CHANNEL }}
+          BOT_TOKEN: ${{ 7171638404:AAGsiMFdwvhXZQMRrzY_XCrsEv9zURBSNEU }}
+          SOURCE_CHANNEL: ${{ @ProxyMTProto }}
+          TARGET_CHANNEL: ${{ @proxy_who }}
         run: php proxy.php
